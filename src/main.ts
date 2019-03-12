@@ -1,2 +1,3 @@
+require('source-map-support').install();
 import 'reflect-metadata';
-import 'source-map-support/register';
+require('dotenv').config();
